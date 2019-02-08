@@ -1,5 +1,6 @@
 package com.hello.aop;
 
+
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -16,4 +17,7 @@ public class Test {
         Book book = (Book) context.getBean("book");
         book.add();
     }
+
+
+
 }
